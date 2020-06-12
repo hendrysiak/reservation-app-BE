@@ -17,7 +17,7 @@ const UserSchema = new Schema({
     type: Number,
     required: true
   },
-})
+});
 
 export interface IUserDocument extends IUser, Document {};
 
