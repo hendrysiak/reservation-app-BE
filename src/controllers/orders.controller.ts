@@ -12,6 +12,7 @@ export const getDisabledSeats = async (req: Request, res: Response): Promise<voi
 
 };
 export const saveFlight = async (req: Request, res: Response): Promise<void> => {
+  console.log(req.body.order);
   const newOrder = await ordersService.saveFlightInfo(req.body.order);
   res.send(newOrder);
 };

@@ -31,6 +31,7 @@ export const rechargeAccount = async (req: Request, res: Response): Promise<IUse
     res.sendStatus(400);
     return;
   } else {
+    delete updatedUser.password;
     res.send(updatedUser);
   }
 };
