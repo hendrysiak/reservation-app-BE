@@ -18,7 +18,7 @@ dotenv.config({ path: path.join(__dirname,`${'../.env'}`) });
 
 const app = express();
 
-app.set('port', process.env.PORT || 3002);
+app.set('port', process.env.PORT || 3005);
 
 app.use(cors());
 
