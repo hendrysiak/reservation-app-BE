@@ -43,7 +43,7 @@
     "socket.io": "^2.3.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "tsc": "^1.20150623.0",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.10.1",
     "typescript": "^3.8.3",
     "unique-names-generator": "^4.2.0"
   },
